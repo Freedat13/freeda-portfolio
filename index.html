@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Freeda Thennela | Portfolio</title>
+  <style>
+    :root {
+      --bg-color: #f9f9fb;
+      --header-bg: #2f3542;
+      --text-color: #2d3436;
+      --accent: #1e90ff;
+      --section-bg: #ffffff;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+    header {
+      background-color: var(--header-bg);
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #ddd;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: var(--accent);
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem 1rem;
+      animation: fadeIn 1.2s ease-in;
+    }
+    section {
+      margin-bottom: 3rem;
+      background: var(--section-bg);
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    }
+    h2 {
+      color: var(--header-bg);
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      padding: 0.4rem 0;
+    }
+    .project {
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border-left: 5px solid var(--accent);
+      background-color: #fefefe;
+    }
+    .download-btn {
+      display: inline-block;
+      background-color: var(--accent);
+      color: #fff;
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 1rem;
+      transition: background 0.3s;
+    }
+    .download-btn:hover {
+      background-color: #0c71d0;
+    }
+    footer {
+      background-color: var(--header-bg);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Freeda Thennela</h1>
+    <p>AI/ML Enthusiast | B.Tech CSE @ VIT-AP University</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate student of Computer Science with a specialization in Artificial Intelligence and Machine Learning at VIT-AP University. I love building smart systems and solving real-world problems through technology.
+      </p>
+      <a href="https://github.com/yourusername/freeda-portfolio/raw/main/Resume.pdf" class="download-btn" target="_blank">📄 Download Resume</a>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Facial Recognition using Raspberry Pi</h3>
+        <p>Real-time facial detection using OpenCV and Haar Cascades on Raspberry Pi.</p>
+      </div>
+      <div class="project">
+        <h3>Pneumonia Detection using Transfer Learning</h3>
+        <p>Deep learning project using DenseNet and ResNet for medical image classification.</p>
+      </div>
+      <div class="project">
+        <h3>Employee Payroll System</h3>
+        <p>Java-based payroll management system for calculating and displaying salaries.</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>C, Java, Python (Basic)</li>
+        <li>HTML, CSS</li>
+        <li>DSA, DBMS, CN</li>
+        <li>MS Word, Excel, PowerPoint</li>
+        <li>Leadership, Communication, Time Management</li>
+      </ul>
+    </section>
+
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <ul>
+        <li>AWS Cloud Practitioner</li>
+        <li>Microsoft Azure AI-900</li>
+        <li>edX Java Programming (OOP)</li>
+        <li>HTML5 and CSS Fundamentals</li>
+        <li>Hands-On Java</li>
+        <li>Wadhwani Foundation Real Venture</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: freedathennela@gmail.com</p>
+      <p>Phone: +91 9100851944</p>
+      <p>Location: Machilipatnam, Andhra Pradesh, India</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/freeda-t-9a46bb251" target="_blank">freeda-t-9a46bb251</a></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 Freeda Thennela. All rights reserved.</p>
+  </footer>
+</body>
+</html>
